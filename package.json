@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "name": "vacation-booking-form",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samkosal/Vacation-Booking-Form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samkosal/Vacation-Booking-Form/issues"
+  },
+  "homepage": "https://github.com/samkosal/Vacation-Booking-Form#readme",
+  "description": ""
+}

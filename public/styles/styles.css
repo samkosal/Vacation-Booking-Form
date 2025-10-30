@@ -1,0 +1,100 @@
+/* General page */
+body {
+    background-color: blue;
+    box-sizing: border-box;
+    
+    
+}
+
+main {
+    background-color: white;
+    width: 70%;
+    /* height: 80vh; */
+    margin: auto;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+/* image banner */
+img {
+    width:100%;
+    filter:brightness(30%);
+
+    height:250px;
+}
+#image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+h1 {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+}   
+
+/* main form */
+#Form-and-button {
+    padding: 20px;
+}
+#main-form {
+    display: grid;
+    grid-template-areas:
+    "first first"
+    "second third";
+    grid-template-columns: 1fr 1fr;
+
+    gap: 1rem;
+    padding: 20px;
+    
+    border: none;
+    
+}
+#first {
+    grid-area: first;
+}
+#second {
+    grid-area: second;
+}
+#third {
+    grid-area: third;
+}
+
+input[type="date"], input[type="number"], select {
+    width: 100%;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+    border-radius: .25rem;
+    margin: 0rem 0rem 1rem 0rem;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    padding-bottom: .5rem;
+}
+
+/* submit button */
+button {
+    display: block;
+
+    margin: auto;
+    margin-top: 10px;  
+    padding: 10px 41px;
+
+    background-color: #0276FF;
+    border-radius: 20px;
+    border-style: none; 
+    color: #fff;
+    box-sizing: border-box;
+}
+
+/* error message */
+.error {
+  color: darkred;
+  display: none;
+}

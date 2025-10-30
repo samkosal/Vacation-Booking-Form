@@ -21,8 +21,7 @@ main {
 img {
     width:100%;
     filter:brightness(30%);
-
-    height:250px;
+    height: 20rem;
 }
 #image {
     position: relative;
@@ -100,6 +99,7 @@ button {
   display: none;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     #main-form {
         display: grid;

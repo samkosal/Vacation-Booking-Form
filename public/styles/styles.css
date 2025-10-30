@@ -34,7 +34,8 @@ img {
 h1 {
     position: absolute;
     color: white;
-    font-size: 50px;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    align-items: center;
 }   
 
 /* main form */
@@ -97,4 +98,16 @@ button {
 .error {
   color: darkred;
   display: none;
+}
+
+@media (max-width: 768px) {
+    #main-form {
+        display: grid;
+        grid-template-areas:
+        "first"
+        "second"
+        "third";
+        grid-template-columns: 1fr;
+
+    }
 }

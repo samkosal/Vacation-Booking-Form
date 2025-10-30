@@ -7,6 +7,9 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/Screenshot-2025-10-29-212952.png">
 
     <!-- Link to JavaScript -->
     <script src="js/vacation.js" defer></script>
@@ -16,7 +19,7 @@
             <form id="vacation-form" action="submit-order" method="post">
                 <!-- Image banner with text -->
                 <div id = "image">
-                    <img src="https://bit.ly/305-vacation">
+                    <img src="https://bit.ly/305-vacation" alt = "vacation sunset">
                     <h1> Book Your Dream Vacation</h1>
                 </div>
 
@@ -41,15 +44,17 @@
                             <input type="date" id="date" name="date">       
                         </div>
                         <div id = "third">
-                            <span id="err-Travelers" class="error"> Numbers of Travelers cannot be empty!</span>
+                            <span id="err-Travelers" class="error"> Numbers of Travelers cannot be less than or equal to zero!</span>
                             <label for="Travelers">Numbers of Travelers:</label>
-                            <input type="number" id="Travelers" name="Travelers">
+                            <input type="number" id="Travelers" name="Travelers" value="0">
                         </div>
                     </fieldset>
                     <button type="submit" id="order-button"> Find My Vacation</button>
                 </div>
 
             </form>
+
+            <p>GitHub: <a href ="https://github.com/samkosal/Vacation-Booking-Form">https://github.com/samkosal/Vacation-Booking-Form</a></p>
         </main>
     </body>
 </html>
